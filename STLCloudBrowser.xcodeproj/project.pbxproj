@@ -1,0 +1,1225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C95C3C10189E887E003F23A1 /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = C95C3C0E189E887E003F23A1 /* SimpleFragment.glsl */; };
+		C95C3C11189E887E003F23A1 /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = C95C3C0F189E887E003F23A1 /* SimpleVertex.glsl */; };
+		C96EE81A163833EB00CF35C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96EE819163833EB00CF35C7 /* UIKit.framework */; };
+		C96EE81C163833EB00CF35C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96EE81B163833EB00CF35C7 /* Foundation.framework */; };
+		C96EE81E163833EB00CF35C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96EE81D163833EB00CF35C7 /* CoreGraphics.framework */; };
+		C96EE824163833EB00CF35C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C96EE822163833EB00CF35C7 /* InfoPlist.strings */; };
+		C96EE826163833EB00CF35C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C96EE825163833EB00CF35C7 /* main.m */; };
+		C96EE82A163833EB00CF35C7 /* STLCloudBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C96EE829163833EB00CF35C7 /* STLCloudBrowserAppDelegate.m */; };
+		C96EE82C163833EB00CF35C7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EE82B163833EB00CF35C7 /* Default.png */; };
+		C96EE82E163833EB00CF35C7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EE82D163833EB00CF35C7 /* Default@2x.png */; };
+		C96EE830163833EB00CF35C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EE82F163833EB00CF35C7 /* Default-568h@2x.png */; };
+		C96EE833163833EB00CF35C7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96EE831163833EB00CF35C7 /* MainStoryboard_iPhone.storyboard */; };
+		C96EE836163833EB00CF35C7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96EE834163833EB00CF35C7 /* MainStoryboard_iPad.storyboard */; };
+		C96EE839163833EB00CF35C7 /* STLCloudBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96EE838163833EB00CF35C7 /* STLCloudBrowserViewController.m */; };
+		C96EE841163833EB00CF35C7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96EE840163833EB00CF35C7 /* SenTestingKit.framework */; };
+		C96EE842163833EB00CF35C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96EE819163833EB00CF35C7 /* UIKit.framework */; };
+		C96EE843163833EB00CF35C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96EE81B163833EB00CF35C7 /* Foundation.framework */; };
+		C96EE84B163833EB00CF35C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C96EE849163833EB00CF35C7 /* InfoPlist.strings */; };
+		C96EE84E163833EB00CF35C7 /* STLCloudBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C96EE84D163833EB00CF35C7 /* STLCloudBrowserTests.m */; };
+		C975B6CE164ABF280058EDE9 /* 3d_cloud_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = C975B6CD164ABF280058EDE9 /* 3d_cloud_72x72.png */; };
+		C975B6D0164ABF5C0058EDE9 /* 3d_cloud_144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = C975B6CF164ABF5C0058EDE9 /* 3d_cloud_144x144.png */; };
+		C9762AAB16420D5500E46DF2 /* STLCloudBrowserDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = C9762AAA16420D5500E46DF2 /* STLCloudBrowserDrive.m */; };
+		C987F00A16F3C0E4005FB0B7 /* icon_restore.png in Resources */ = {isa = PBXBuildFile; fileRef = C987F00916F3C0E4005FB0B7 /* icon_restore.png */; };
+		C987F00C16F3C2F8005FB0B7 /* icon_buy_now.png in Resources */ = {isa = PBXBuildFile; fileRef = C987F00B16F3C2F8005FB0B7 /* icon_buy_now.png */; };
+		C9907DF8182051FC00F368CB /* 3d_cloud 76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = C9907DF5182051FC00F368CB /* 3d_cloud 76x76.png */; };
+		C9907DF9182051FC00F368CB /* 3d_cloud 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = C9907DF6182051FC00F368CB /* 3d_cloud 120x120.png */; };
+		C9907DFA182051FC00F368CB /* 3d_cloud 152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = C9907DF7182051FC00F368CB /* 3d_cloud 152x152.png */; };
+		C9AF4E04164485D30045F370 /* dropbox_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AF4E03164485D30045F370 /* dropbox_icon.png */; };
+		C9AF4E07164485E00045F370 /* google_drive_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AF4E06164485E00045F370 /* google_drive_icon.png */; };
+		C9AF4E161644B0F30045F370 /* STLCloudBrowserSTLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AF4E141644B0F20045F370 /* STLCloudBrowserSTLViewController.m */; };
+		C9AF4E171644B0F30045F370 /* STLViewiPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9AF4E151644B0F20045F370 /* STLViewiPhone.xib */; };
+		C9AF4E1A1644B3460045F370 /* libSTLParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AF4E181644B3460045F370 /* libSTLParser.a */; };
+		C9AF4E1D1644B6950045F370 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AF4E1C1644B6950045F370 /* GLKit.framework */; };
+		C9AF4E1F1644B6C20045F370 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AF4E1E1644B6C20045F370 /* OpenGLES.framework */; };
+		C9AF4E3E16473A650045F370 /* STLViewiPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9AF4E3D16473A640045F370 /* STLViewiPad.xib */; };
+		C9AF4E521647CBEA0045F370 /* STLCloudBrowserLocalDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AF4E511647CBE90045F370 /* STLCloudBrowserLocalDrive.m */; };
+		C9AF4E69164898810045F370 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AF4E68164898810045F370 /* IAPHelper.m */; };
+		C9AF4E6E1648FDA60045F370 /* STLCloudBrowserIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AF4E6D1648FDA60045F370 /* STLCloudBrowserIAPHelper.m */; };
+		C9AF4E701648FF330045F370 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AF4E6F1648FF330045F370 /* StoreKit.framework */; };
+		C9AF4E761649E0EB0045F370 /* 3d_cloud_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AF4E751649E0EB0045F370 /* 3d_cloud_57x57.png */; };
+		C9AF4E791649E0F00045F370 /* 3d_cloud_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AF4E781649E0F00045F370 /* 3d_cloud_114x114.png */; };
+		C9ECD1A816383ADD00BCAC59 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9ECD1A716383ADD00BCAC59 /* DropboxSDK.framework */; };
+		C9ECD1AB16383B4A00BCAC59 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9ECD1AA16383B4A00BCAC59 /* Security.framework */; };
+		C9ECD1AD16383B5200BCAC59 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9ECD1AC16383B5200BCAC59 /* QuartzCore.framework */; };
+		C9ECD1B216385A5000BCAC59 /* STLCloudBrowserDropBoxDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ECD1B116385A5000BCAC59 /* STLCloudBrowserDropBoxDrive.m */; };
+		EB022642163F1C7100472D00 /* GTLDriveAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D57163F1A85000E647B /* GTLDriveAbout.m */; };
+		EB022644163F1C7100472D00 /* GTLDriveApp.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D59163F1A85000E647B /* GTLDriveApp.m */; };
+		EB022646163F1C7100472D00 /* GTLDriveAppList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D5B163F1A85000E647B /* GTLDriveAppList.m */; };
+		EB022648163F1C7100472D00 /* GTLDriveChange.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D5D163F1A85000E647B /* GTLDriveChange.m */; };
+		EB02264A163F1C7100472D00 /* GTLDriveChangeList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D5F163F1A85000E647B /* GTLDriveChangeList.m */; };
+		EB02264C163F1C7100472D00 /* GTLDriveChildList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D61163F1A85000E647B /* GTLDriveChildList.m */; };
+		EB02264E163F1C7100472D00 /* GTLDriveChildReference.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D63163F1A85000E647B /* GTLDriveChildReference.m */; };
+		EB022650163F1C7100472D00 /* GTLDriveConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D65163F1A85000E647B /* GTLDriveConstants.m */; };
+		EB022652163F1C7100472D00 /* GTLDriveFile.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D67163F1A85000E647B /* GTLDriveFile.m */; };
+		EB022654163F1C7100472D00 /* GTLDriveFileList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D69163F1A85000E647B /* GTLDriveFileList.m */; };
+		EB022656163F1C7100472D00 /* GTLDriveParentList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D6B163F1A85000E647B /* GTLDriveParentList.m */; };
+		EB022658163F1C7100472D00 /* GTLDriveParentReference.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D6D163F1A85000E647B /* GTLDriveParentReference.m */; };
+		EB02265A163F1C7100472D00 /* GTLDrivePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D6F163F1A85000E647B /* GTLDrivePermission.m */; };
+		EB02265C163F1C7100472D00 /* GTLDrivePermissionList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D71163F1A85000E647B /* GTLDrivePermissionList.m */; };
+		EB02265E163F1C7100472D00 /* GTLDriveRevision.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D73163F1A85000E647B /* GTLDriveRevision.m */; };
+		EB022660163F1C7100472D00 /* GTLDriveRevisionList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D75163F1A85000E647B /* GTLDriveRevisionList.m */; };
+		EB022662163F1C7100472D00 /* GTLQueryDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D77163F1A85000E647B /* GTLQueryDrive.m */; };
+		EB022664163F1C7100472D00 /* GTLServiceDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D79163F1A85000E647B /* GTLServiceDrive.m */; };
+		EB0B45531641A64800068F10 /* DirectoryViewiPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB0B45521641A64800068F10 /* DirectoryViewiPhone.xib */; };
+		EB0B45681642A78E00068F10 /* GTMOAuth2ViewTouch.xib in Sources */ = {isa = PBXBuildFile; fileRef = EB971D36163F1A56000E647B /* GTMOAuth2ViewTouch.xib */; };
+		EB3F0BFE16481D8A00482E23 /* STLCloudBrowserUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3F0BFD16481D8A00482E23 /* STLCloudBrowserUtils.m */; };
+		EB5E462C17DE5E9F0001CA35 /* STLCloudBrowserDriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E462B17DE5E9F0001CA35 /* STLCloudBrowserDriveViewController.m */; };
+		EB5E462E17DE6A650001CA35 /* STLCloudBrowserDriveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5E462D17DE6A650001CA35 /* STLCloudBrowserDriveCell.xib */; };
+		EB5E463117DE6AC40001CA35 /* STLCloudBrowserDriveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E463017DE6AC30001CA35 /* STLCloudBrowserDriveCell.m */; };
+		EB7CF20917047C1E00814B6B /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7CF20817047C1E00814B6B /* cart.png */; };
+		EB915D7E1744003300D8446D /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB915D7C1744003300D8446D /* iRate.m */; };
+		EB971CAB163F08AF000E647B /* STLCloudBrowserDirCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971CAA163F08AE000E647B /* STLCloudBrowserDirCell.m */; };
+		EB971CAE163F08C9000E647B /* STLCloudBrowserFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971CAD163F08C9000E647B /* STLCloudBrowserFileCell.m */; };
+		EB971CEC163F14EF000E647B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB971CEB163F14EF000E647B /* SystemConfiguration.framework */; };
+		EB971D37163F1A56000E647B /* GTLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971CFB163F1A56000E647B /* GTLObject.m */; };
+		EB971D38163F1A56000E647B /* GTLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971CFD163F1A56000E647B /* GTLQuery.m */; };
+		EB971D39163F1A56000E647B /* GTLBatchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971CFF163F1A56000E647B /* GTLBatchQuery.m */; };
+		EB971D3A163F1A56000E647B /* GTLService.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D01163F1A56000E647B /* GTLService.m */; };
+		EB971D3B163F1A56000E647B /* GTLBatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D03163F1A56000E647B /* GTLBatchResult.m */; };
+		EB971D3C163F1A56000E647B /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D05163F1A56000E647B /* GTLUploadParameters.m */; };
+		EB971D3D163F1A56000E647B /* GTLDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D07163F1A56000E647B /* GTLDateTime.m */; };
+		EB971D3E163F1A56000E647B /* GTLErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D09163F1A56000E647B /* GTLErrorObject.m */; };
+		EB971D3F163F1A56000E647B /* GTLRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D0B163F1A56000E647B /* GTLRuntimeCommon.m */; };
+		EB971D40163F1A56000E647B /* GTLFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D0D163F1A56000E647B /* GTLFramework.m */; };
+		EB971D41163F1A56000E647B /* GTLJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D0F163F1A56000E647B /* GTLJSONParser.m */; };
+		EB971D42163F1A56000E647B /* GTLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D12163F1A56000E647B /* GTLUtilities.m */; };
+		EB971D43163F1A56000E647B /* GTLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D14163F1A56000E647B /* GTLBase64.m */; };
+		EB971D44163F1A56000E647B /* GTMHTTPFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D16163F1A56000E647B /* GTMHTTPFetcherService.m */; };
+		EB971D45163F1A56000E647B /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D18163F1A56000E647B /* GTMHTTPFetcher.m */; };
+		EB971D46163F1A56000E647B /* GTMHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D1A163F1A56000E647B /* GTMHTTPFetcherLogging.m */; };
+		EB971D47163F1A56000E647B /* GTMHTTPFetchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D1C163F1A56000E647B /* GTMHTTPFetchHistory.m */; };
+		EB971D48163F1A56000E647B /* GTMHTTPUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D1E163F1A56000E647B /* GTMHTTPUploadFetcher.m */; };
+		EB971D49163F1A56000E647B /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D20163F1A56000E647B /* GTMGatherInputStream.m */; };
+		EB971D4A163F1A56000E647B /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D22163F1A56000E647B /* GTMMIMEDocument.m */; };
+		EB971D4B163F1A56000E647B /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D24163F1A56000E647B /* GTMReadMonitorInputStream.m */; };
+		EB971D4C163F1A56000E647B /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D28163F1A56000E647B /* SBJsonBase.m */; };
+		EB971D4D163F1A56000E647B /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D2A163F1A56000E647B /* SBJsonParser.m */; };
+		EB971D4E163F1A56000E647B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D2C163F1A56000E647B /* SBJsonWriter.m */; };
+		EB971D4F163F1A56000E647B /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D2E163F1A56000E647B /* GTMOAuth2Authentication.m */; };
+		EB971D50163F1A56000E647B /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D30163F1A56000E647B /* GTMOAuth2SignIn.m */; };
+		EB971D51163F1A56000E647B /* GTMOAuth2Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB971D31163F1A56000E647B /* GTMOAuth2Window.xib */; };
+		EB971D52163F1A56000E647B /* GTMOAuth2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D33163F1A56000E647B /* GTMOAuth2WindowController.m */; };
+		EB971D53163F1A56000E647B /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D35163F1A56000E647B /* GTMOAuth2ViewControllerTouch.m */; };
+		EB971D54163F1A56000E647B /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB971D36163F1A56000E647B /* GTMOAuth2ViewTouch.xib */; };
+		EB971D7A163F1A85000E647B /* GTLDriveAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D57163F1A85000E647B /* GTLDriveAbout.m */; };
+		EB971D7B163F1A85000E647B /* GTLDriveApp.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D59163F1A85000E647B /* GTLDriveApp.m */; };
+		EB971D7C163F1A85000E647B /* GTLDriveAppList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D5B163F1A85000E647B /* GTLDriveAppList.m */; };
+		EB971D7D163F1A85000E647B /* GTLDriveChange.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D5D163F1A85000E647B /* GTLDriveChange.m */; };
+		EB971D7E163F1A85000E647B /* GTLDriveChangeList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D5F163F1A85000E647B /* GTLDriveChangeList.m */; };
+		EB971D7F163F1A85000E647B /* GTLDriveChildList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D61163F1A85000E647B /* GTLDriveChildList.m */; };
+		EB971D80163F1A85000E647B /* GTLDriveChildReference.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D63163F1A85000E647B /* GTLDriveChildReference.m */; };
+		EB971D81163F1A85000E647B /* GTLDriveConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D65163F1A85000E647B /* GTLDriveConstants.m */; };
+		EB971D82163F1A85000E647B /* GTLDriveFile.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D67163F1A85000E647B /* GTLDriveFile.m */; };
+		EB971D83163F1A85000E647B /* GTLDriveFileList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D69163F1A85000E647B /* GTLDriveFileList.m */; };
+		EB971D84163F1A85000E647B /* GTLDriveParentList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D6B163F1A85000E647B /* GTLDriveParentList.m */; };
+		EB971D85163F1A85000E647B /* GTLDriveParentReference.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D6D163F1A85000E647B /* GTLDriveParentReference.m */; };
+		EB971D86163F1A85000E647B /* GTLDrivePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D6F163F1A85000E647B /* GTLDrivePermission.m */; };
+		EB971D87163F1A85000E647B /* GTLDrivePermissionList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D71163F1A85000E647B /* GTLDrivePermissionList.m */; };
+		EB971D88163F1A85000E647B /* GTLDriveRevision.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D73163F1A85000E647B /* GTLDriveRevision.m */; };
+		EB971D89163F1A85000E647B /* GTLDriveRevisionList.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D75163F1A85000E647B /* GTLDriveRevisionList.m */; };
+		EB971D8A163F1A85000E647B /* GTLQueryDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D77163F1A85000E647B /* GTLQueryDrive.m */; };
+		EB971D8B163F1A85000E647B /* GTLServiceDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D79163F1A85000E647B /* GTLServiceDrive.m */; };
+		EB971D8E163F1ABC000E647B /* GTLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971CFB163F1A56000E647B /* GTLObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971D90163F1ABC000E647B /* GTLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971CFD163F1A56000E647B /* GTLQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971D92163F1ABC000E647B /* GTLBatchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971CFF163F1A56000E647B /* GTLBatchQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971D94163F1ABC000E647B /* GTLService.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D01163F1A56000E647B /* GTLService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971D96163F1ABC000E647B /* GTLBatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D03163F1A56000E647B /* GTLBatchResult.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971D98163F1ABC000E647B /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D05163F1A56000E647B /* GTLUploadParameters.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971D9A163F1ABC000E647B /* GTLDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D07163F1A56000E647B /* GTLDateTime.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971D9C163F1ABC000E647B /* GTLErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D09163F1A56000E647B /* GTLErrorObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971D9E163F1ABC000E647B /* GTLRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D0B163F1A56000E647B /* GTLRuntimeCommon.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DA0163F1ABC000E647B /* GTLFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D0D163F1A56000E647B /* GTLFramework.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DA2163F1ABC000E647B /* GTLJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D0F163F1A56000E647B /* GTLJSONParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DA5163F1ABC000E647B /* GTLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D12163F1A56000E647B /* GTLUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DA7163F1ABC000E647B /* GTLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D14163F1A56000E647B /* GTLBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DA9163F1ABC000E647B /* GTMHTTPFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D16163F1A56000E647B /* GTMHTTPFetcherService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DAB163F1ABC000E647B /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D18163F1A56000E647B /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DAD163F1ABC000E647B /* GTMHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D1A163F1A56000E647B /* GTMHTTPFetcherLogging.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DAF163F1ABC000E647B /* GTMHTTPFetchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D1C163F1A56000E647B /* GTMHTTPFetchHistory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DB1163F1ABC000E647B /* GTMHTTPUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D1E163F1A56000E647B /* GTMHTTPUploadFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DB3163F1ABC000E647B /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D20163F1A56000E647B /* GTMGatherInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DB5163F1ABC000E647B /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D22163F1A56000E647B /* GTMMIMEDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DB7163F1ABC000E647B /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D24163F1A56000E647B /* GTMReadMonitorInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DBB163F1ABC000E647B /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D28163F1A56000E647B /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DBD163F1ABC000E647B /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D2A163F1A56000E647B /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DBF163F1ABC000E647B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D2C163F1A56000E647B /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DC1163F1ABC000E647B /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D2E163F1A56000E647B /* GTMOAuth2Authentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DC3163F1ABC000E647B /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D30163F1A56000E647B /* GTMOAuth2SignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DC6163F1ABC000E647B /* GTMOAuth2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D33163F1A56000E647B /* GTMOAuth2WindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB971DC8163F1ABC000E647B /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971D35163F1A56000E647B /* GTMOAuth2ViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBD510891639777900C6D333 /* STLCloudBrowserDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD510881639777900C6D333 /* STLCloudBrowserDirectory.m */; };
+		EBD5108C1639779B00C6D333 /* STLCloudBrowserFile.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD5108B1639779B00C6D333 /* STLCloudBrowserFile.m */; };
+		EBD5109516398FD600C6D333 /* STLCloudBrowserGoogleDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD5109416398FD600C6D333 /* STLCloudBrowserGoogleDrive.m */; };
+		EBDD61FE163ED9DC005D126E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBDD61FD163ED9DC005D126E /* Localizable.strings */; };
+		EBDD6202163EDE90005D126E /* STLCloudBrowserDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDD6201163EDE90005D126E /* STLCloudBrowserDirectoryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C96EE844163833EB00CF35C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C96EE80C163833EB00CF35C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C96EE814163833EB00CF35C7;
+			remoteInfo = STLCloudBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C95C3C0E189E887E003F23A1 /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
+		C95C3C0F189E887E003F23A1 /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		C96EE815163833EB00CF35C7 /* 3D Cloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Cloud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96EE819163833EB00CF35C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C96EE81B163833EB00CF35C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C96EE81D163833EB00CF35C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C96EE821163833EB00CF35C7 /* STLCloudBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STLCloudBrowser-Info.plist"; sourceTree = "<group>"; };
+		C96EE823163833EB00CF35C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C96EE825163833EB00CF35C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C96EE827163833EB00CF35C7 /* STLCloudBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STLCloudBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		C96EE828163833EB00CF35C7 /* STLCloudBrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserAppDelegate.h; sourceTree = "<group>"; };
+		C96EE829163833EB00CF35C7 /* STLCloudBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserAppDelegate.m; sourceTree = "<group>"; };
+		C96EE82B163833EB00CF35C7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C96EE82D163833EB00CF35C7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C96EE82F163833EB00CF35C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C96EE832163833EB00CF35C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C96EE835163833EB00CF35C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C96EE837163833EB00CF35C7 /* STLCloudBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserViewController.h; sourceTree = "<group>"; };
+		C96EE838163833EB00CF35C7 /* STLCloudBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserViewController.m; sourceTree = "<group>"; };
+		C96EE83F163833EB00CF35C7 /* STLCloudBrowserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STLCloudBrowserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96EE840163833EB00CF35C7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C96EE848163833EB00CF35C7 /* STLCloudBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STLCloudBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		C96EE84A163833EB00CF35C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C96EE84C163833EB00CF35C7 /* STLCloudBrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserTests.h; sourceTree = "<group>"; };
+		C96EE84D163833EB00CF35C7 /* STLCloudBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserTests.m; sourceTree = "<group>"; };
+		C975B6CD164ABF280058EDE9 /* 3d_cloud_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3d_cloud_72x72.png; sourceTree = "<group>"; };
+		C975B6CF164ABF5C0058EDE9 /* 3d_cloud_144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3d_cloud_144x144.png; sourceTree = "<group>"; };
+		C9762AA916420D5500E46DF2 /* STLCloudBrowserDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserDrive.h; sourceTree = "<group>"; };
+		C9762AAA16420D5500E46DF2 /* STLCloudBrowserDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserDrive.m; sourceTree = "<group>"; };
+		C987F00916F3C0E4005FB0B7 /* icon_restore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_restore.png; sourceTree = "<group>"; };
+		C987F00B16F3C2F8005FB0B7 /* icon_buy_now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_buy_now.png; sourceTree = "<group>"; };
+		C9907DF5182051FC00F368CB /* 3d_cloud 76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3d_cloud 76x76.png"; sourceTree = "<group>"; };
+		C9907DF6182051FC00F368CB /* 3d_cloud 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3d_cloud 120x120.png"; sourceTree = "<group>"; };
+		C9907DF7182051FC00F368CB /* 3d_cloud 152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3d_cloud 152x152.png"; sourceTree = "<group>"; };
+		C9AF4E03164485D30045F370 /* dropbox_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropbox_icon.png; sourceTree = "<group>"; };
+		C9AF4E06164485E00045F370 /* google_drive_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google_drive_icon.png; sourceTree = "<group>"; };
+		C9AF4E131644B0F20045F370 /* STLCloudBrowserSTLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserSTLViewController.h; sourceTree = "<group>"; };
+		C9AF4E141644B0F20045F370 /* STLCloudBrowserSTLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserSTLViewController.m; sourceTree = "<group>"; };
+		C9AF4E151644B0F20045F370 /* STLViewiPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STLViewiPhone.xib; sourceTree = "<group>"; };
+		C9AF4E181644B3460045F370 /* libSTLParser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSTLParser.a; sourceTree = "<group>"; };
+		C9AF4E191644B3460045F370 /* stl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stl.h; sourceTree = "<group>"; };
+		C9AF4E1C1644B6950045F370 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C9AF4E1E1644B6C20045F370 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C9AF4E3D16473A640045F370 /* STLViewiPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STLViewiPad.xib; sourceTree = "<group>"; };
+		C9AF4E501647CBE90045F370 /* STLCloudBrowserLocalDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserLocalDrive.h; sourceTree = "<group>"; };
+		C9AF4E511647CBE90045F370 /* STLCloudBrowserLocalDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserLocalDrive.m; sourceTree = "<group>"; };
+		C9AF4E67164898810045F370 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		C9AF4E68164898810045F370 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
+		C9AF4E6C1648FDA60045F370 /* STLCloudBrowserIAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserIAPHelper.h; sourceTree = "<group>"; };
+		C9AF4E6D1648FDA60045F370 /* STLCloudBrowserIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserIAPHelper.m; sourceTree = "<group>"; };
+		C9AF4E6F1648FF330045F370 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C9AF4E751649E0EB0045F370 /* 3d_cloud_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3d_cloud_57x57.png; sourceTree = "<group>"; };
+		C9AF4E781649E0F00045F370 /* 3d_cloud_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3d_cloud_114x114.png; sourceTree = "<group>"; };
+		C9ECD1A716383ADD00BCAC59 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		C9ECD1AA16383B4A00BCAC59 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C9ECD1AC16383B5200BCAC59 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C9ECD1B016385A5000BCAC59 /* STLCloudBrowserDropBoxDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserDropBoxDrive.h; sourceTree = "<group>"; };
+		C9ECD1B116385A5000BCAC59 /* STLCloudBrowserDropBoxDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserDropBoxDrive.m; sourceTree = "<group>"; };
+		EB0B45521641A64800068F10 /* DirectoryViewiPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectoryViewiPhone.xib; sourceTree = "<group>"; };
+		EB3F0BFC16481D8A00482E23 /* STLCloudBrowserUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserUtils.h; sourceTree = "<group>"; };
+		EB3F0BFD16481D8A00482E23 /* STLCloudBrowserUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserUtils.m; sourceTree = "<group>"; };
+		EB5E462A17DE5E9F0001CA35 /* STLCloudBrowserDriveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserDriveViewController.h; sourceTree = "<group>"; };
+		EB5E462B17DE5E9F0001CA35 /* STLCloudBrowserDriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserDriveViewController.m; sourceTree = "<group>"; };
+		EB5E462D17DE6A650001CA35 /* STLCloudBrowserDriveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STLCloudBrowserDriveCell.xib; sourceTree = "<group>"; };
+		EB5E462F17DE6AC30001CA35 /* STLCloudBrowserDriveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserDriveCell.h; sourceTree = "<group>"; };
+		EB5E463017DE6AC30001CA35 /* STLCloudBrowserDriveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserDriveCell.m; sourceTree = "<group>"; };
+		EB7CF20817047C1E00814B6B /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		EB915D7C1744003300D8446D /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = SOURCE_ROOT; };
+		EB915D7D1744003300D8446D /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = SOURCE_ROOT; };
+		EB971CA9163F08AE000E647B /* STLCloudBrowserDirCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserDirCell.h; sourceTree = "<group>"; };
+		EB971CAA163F08AE000E647B /* STLCloudBrowserDirCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserDirCell.m; sourceTree = "<group>"; };
+		EB971CAC163F08C8000E647B /* STLCloudBrowserFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserFileCell.h; sourceTree = "<group>"; };
+		EB971CAD163F08C9000E647B /* STLCloudBrowserFileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserFileCell.m; sourceTree = "<group>"; };
+		EB971CEB163F14EF000E647B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EB971CF9163F1A56000E647B /* GTLDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDefines.h; sourceTree = "<group>"; };
+		EB971CFA163F1A56000E647B /* GTLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLObject.h; sourceTree = "<group>"; };
+		EB971CFB163F1A56000E647B /* GTLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLObject.m; sourceTree = "<group>"; };
+		EB971CFC163F1A56000E647B /* GTLQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQuery.h; sourceTree = "<group>"; };
+		EB971CFD163F1A56000E647B /* GTLQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQuery.m; sourceTree = "<group>"; };
+		EB971CFE163F1A56000E647B /* GTLBatchQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBatchQuery.h; sourceTree = "<group>"; };
+		EB971CFF163F1A56000E647B /* GTLBatchQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBatchQuery.m; sourceTree = "<group>"; };
+		EB971D00163F1A56000E647B /* GTLService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLService.h; sourceTree = "<group>"; };
+		EB971D01163F1A56000E647B /* GTLService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLService.m; sourceTree = "<group>"; };
+		EB971D02163F1A56000E647B /* GTLBatchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBatchResult.h; sourceTree = "<group>"; };
+		EB971D03163F1A56000E647B /* GTLBatchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBatchResult.m; sourceTree = "<group>"; };
+		EB971D04163F1A56000E647B /* GTLUploadParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLUploadParameters.h; sourceTree = "<group>"; };
+		EB971D05163F1A56000E647B /* GTLUploadParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLUploadParameters.m; sourceTree = "<group>"; };
+		EB971D06163F1A56000E647B /* GTLDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDateTime.h; sourceTree = "<group>"; };
+		EB971D07163F1A56000E647B /* GTLDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDateTime.m; sourceTree = "<group>"; };
+		EB971D08163F1A56000E647B /* GTLErrorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLErrorObject.h; sourceTree = "<group>"; };
+		EB971D09163F1A56000E647B /* GTLErrorObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLErrorObject.m; sourceTree = "<group>"; };
+		EB971D0A163F1A56000E647B /* GTLRuntimeCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRuntimeCommon.h; sourceTree = "<group>"; };
+		EB971D0B163F1A56000E647B /* GTLRuntimeCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLRuntimeCommon.m; sourceTree = "<group>"; };
+		EB971D0C163F1A56000E647B /* GTLFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLFramework.h; sourceTree = "<group>"; };
+		EB971D0D163F1A56000E647B /* GTLFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLFramework.m; sourceTree = "<group>"; };
+		EB971D0E163F1A56000E647B /* GTLJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLJSONParser.h; sourceTree = "<group>"; };
+		EB971D0F163F1A56000E647B /* GTLJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLJSONParser.m; sourceTree = "<group>"; };
+		EB971D10163F1A56000E647B /* GTLTargetNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLTargetNamespace.h; sourceTree = "<group>"; };
+		EB971D11163F1A56000E647B /* GTLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLUtilities.h; sourceTree = "<group>"; };
+		EB971D12163F1A56000E647B /* GTLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLUtilities.m; sourceTree = "<group>"; };
+		EB971D13163F1A56000E647B /* GTLBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBase64.h; sourceTree = "<group>"; };
+		EB971D14163F1A56000E647B /* GTLBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLBase64.m; sourceTree = "<group>"; };
+		EB971D15163F1A56000E647B /* GTMHTTPFetcherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcherService.h; sourceTree = "<group>"; };
+		EB971D16163F1A56000E647B /* GTMHTTPFetcherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcherService.m; sourceTree = "<group>"; };
+		EB971D17163F1A56000E647B /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		EB971D18163F1A56000E647B /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		EB971D19163F1A56000E647B /* GTMHTTPFetcherLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcherLogging.h; sourceTree = "<group>"; };
+		EB971D1A163F1A56000E647B /* GTMHTTPFetcherLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcherLogging.m; sourceTree = "<group>"; };
+		EB971D1B163F1A56000E647B /* GTMHTTPFetchHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetchHistory.h; sourceTree = "<group>"; };
+		EB971D1C163F1A56000E647B /* GTMHTTPFetchHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetchHistory.m; sourceTree = "<group>"; };
+		EB971D1D163F1A56000E647B /* GTMHTTPUploadFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPUploadFetcher.h; sourceTree = "<group>"; };
+		EB971D1E163F1A56000E647B /* GTMHTTPUploadFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPUploadFetcher.m; sourceTree = "<group>"; };
+		EB971D1F163F1A56000E647B /* GTMGatherInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGatherInputStream.h; sourceTree = "<group>"; };
+		EB971D20163F1A56000E647B /* GTMGatherInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMGatherInputStream.m; sourceTree = "<group>"; };
+		EB971D21163F1A56000E647B /* GTMMIMEDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMMIMEDocument.h; sourceTree = "<group>"; };
+		EB971D22163F1A56000E647B /* GTMMIMEDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMMIMEDocument.m; sourceTree = "<group>"; };
+		EB971D23163F1A56000E647B /* GTMReadMonitorInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMReadMonitorInputStream.h; sourceTree = "<group>"; };
+		EB971D24163F1A56000E647B /* GTMReadMonitorInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMReadMonitorInputStream.m; sourceTree = "<group>"; };
+		EB971D25163F1A56000E647B /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		EB971D26163F1A56000E647B /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		EB971D27163F1A56000E647B /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		EB971D28163F1A56000E647B /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		EB971D29163F1A56000E647B /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		EB971D2A163F1A56000E647B /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		EB971D2B163F1A56000E647B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		EB971D2C163F1A56000E647B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		EB971D2D163F1A56000E647B /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2Authentication.h; sourceTree = "<group>"; };
+		EB971D2E163F1A56000E647B /* GTMOAuth2Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2Authentication.m; sourceTree = "<group>"; };
+		EB971D2F163F1A56000E647B /* GTMOAuth2SignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2SignIn.h; sourceTree = "<group>"; };
+		EB971D30163F1A56000E647B /* GTMOAuth2SignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2SignIn.m; sourceTree = "<group>"; };
+		EB971D31163F1A56000E647B /* GTMOAuth2Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuth2Window.xib; sourceTree = "<group>"; };
+		EB971D32163F1A56000E647B /* GTMOAuth2WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2WindowController.h; sourceTree = "<group>"; };
+		EB971D33163F1A56000E647B /* GTMOAuth2WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2WindowController.m; sourceTree = "<group>"; };
+		EB971D34163F1A56000E647B /* GTMOAuth2ViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2ViewControllerTouch.h; sourceTree = "<group>"; };
+		EB971D35163F1A56000E647B /* GTMOAuth2ViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2ViewControllerTouch.m; sourceTree = "<group>"; };
+		EB971D36163F1A56000E647B /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		EB971D55163F1A85000E647B /* GTLDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrive.h; sourceTree = "<group>"; };
+		EB971D56163F1A85000E647B /* GTLDriveAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveAbout.h; sourceTree = "<group>"; };
+		EB971D57163F1A85000E647B /* GTLDriveAbout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveAbout.m; sourceTree = "<group>"; };
+		EB971D58163F1A85000E647B /* GTLDriveApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveApp.h; sourceTree = "<group>"; };
+		EB971D59163F1A85000E647B /* GTLDriveApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveApp.m; sourceTree = "<group>"; };
+		EB971D5A163F1A85000E647B /* GTLDriveAppList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveAppList.h; sourceTree = "<group>"; };
+		EB971D5B163F1A85000E647B /* GTLDriveAppList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveAppList.m; sourceTree = "<group>"; };
+		EB971D5C163F1A85000E647B /* GTLDriveChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveChange.h; sourceTree = "<group>"; };
+		EB971D5D163F1A85000E647B /* GTLDriveChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveChange.m; sourceTree = "<group>"; };
+		EB971D5E163F1A85000E647B /* GTLDriveChangeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveChangeList.h; sourceTree = "<group>"; };
+		EB971D5F163F1A85000E647B /* GTLDriveChangeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveChangeList.m; sourceTree = "<group>"; };
+		EB971D60163F1A85000E647B /* GTLDriveChildList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveChildList.h; sourceTree = "<group>"; };
+		EB971D61163F1A85000E647B /* GTLDriveChildList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveChildList.m; sourceTree = "<group>"; };
+		EB971D62163F1A85000E647B /* GTLDriveChildReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveChildReference.h; sourceTree = "<group>"; };
+		EB971D63163F1A85000E647B /* GTLDriveChildReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveChildReference.m; sourceTree = "<group>"; };
+		EB971D64163F1A85000E647B /* GTLDriveConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveConstants.h; sourceTree = "<group>"; };
+		EB971D65163F1A85000E647B /* GTLDriveConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveConstants.m; sourceTree = "<group>"; };
+		EB971D66163F1A85000E647B /* GTLDriveFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveFile.h; sourceTree = "<group>"; };
+		EB971D67163F1A85000E647B /* GTLDriveFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveFile.m; sourceTree = "<group>"; };
+		EB971D68163F1A85000E647B /* GTLDriveFileList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveFileList.h; sourceTree = "<group>"; };
+		EB971D69163F1A85000E647B /* GTLDriveFileList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveFileList.m; sourceTree = "<group>"; };
+		EB971D6A163F1A85000E647B /* GTLDriveParentList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveParentList.h; sourceTree = "<group>"; };
+		EB971D6B163F1A85000E647B /* GTLDriveParentList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveParentList.m; sourceTree = "<group>"; };
+		EB971D6C163F1A85000E647B /* GTLDriveParentReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveParentReference.h; sourceTree = "<group>"; };
+		EB971D6D163F1A85000E647B /* GTLDriveParentReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveParentReference.m; sourceTree = "<group>"; };
+		EB971D6E163F1A85000E647B /* GTLDrivePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrivePermission.h; sourceTree = "<group>"; };
+		EB971D6F163F1A85000E647B /* GTLDrivePermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrivePermission.m; sourceTree = "<group>"; };
+		EB971D70163F1A85000E647B /* GTLDrivePermissionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrivePermissionList.h; sourceTree = "<group>"; };
+		EB971D71163F1A85000E647B /* GTLDrivePermissionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrivePermissionList.m; sourceTree = "<group>"; };
+		EB971D72163F1A85000E647B /* GTLDriveRevision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveRevision.h; sourceTree = "<group>"; };
+		EB971D73163F1A85000E647B /* GTLDriveRevision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveRevision.m; sourceTree = "<group>"; };
+		EB971D74163F1A85000E647B /* GTLDriveRevisionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveRevisionList.h; sourceTree = "<group>"; };
+		EB971D75163F1A85000E647B /* GTLDriveRevisionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveRevisionList.m; sourceTree = "<group>"; };
+		EB971D76163F1A85000E647B /* GTLQueryDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQueryDrive.h; sourceTree = "<group>"; };
+		EB971D77163F1A85000E647B /* GTLQueryDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQueryDrive.m; sourceTree = "<group>"; };
+		EB971D78163F1A85000E647B /* GTLServiceDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceDrive.h; sourceTree = "<group>"; };
+		EB971D79163F1A85000E647B /* GTLServiceDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceDrive.m; sourceTree = "<group>"; };
+		EBD510871639777900C6D333 /* STLCloudBrowserDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserDirectory.h; sourceTree = "<group>"; };
+		EBD510881639777900C6D333 /* STLCloudBrowserDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserDirectory.m; sourceTree = "<group>"; };
+		EBD5108A1639779B00C6D333 /* STLCloudBrowserFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserFile.h; sourceTree = "<group>"; };
+		EBD5108B1639779B00C6D333 /* STLCloudBrowserFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserFile.m; sourceTree = "<group>"; };
+		EBD5109316398FD600C6D333 /* STLCloudBrowserGoogleDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLCloudBrowserGoogleDrive.h; sourceTree = "<group>"; };
+		EBD5109416398FD600C6D333 /* STLCloudBrowserGoogleDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLCloudBrowserGoogleDrive.m; sourceTree = "<group>"; };
+		EBDD61FD163ED9DC005D126E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		EBDD6200163EDE90005D126E /* STLCloudBrowserDirectoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STLCloudBrowserDirectoryViewController.h; path = STLCloudBrowser/STLCloudBrowserDirectoryViewController.h; sourceTree = "<group>"; };
+		EBDD6201163EDE90005D126E /* STLCloudBrowserDirectoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STLCloudBrowserDirectoryViewController.m; path = STLCloudBrowser/STLCloudBrowserDirectoryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C96EE812163833EB00CF35C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AF4E701648FF330045F370 /* StoreKit.framework in Frameworks */,
+				C9AF4E1F1644B6C20045F370 /* OpenGLES.framework in Frameworks */,
+				C9AF4E1D1644B6950045F370 /* GLKit.framework in Frameworks */,
+				EB971CEC163F14EF000E647B /* SystemConfiguration.framework in Frameworks */,
+				C9ECD1AD16383B5200BCAC59 /* QuartzCore.framework in Frameworks */,
+				C9ECD1AB16383B4A00BCAC59 /* Security.framework in Frameworks */,
+				C96EE81A163833EB00CF35C7 /* UIKit.framework in Frameworks */,
+				C96EE81C163833EB00CF35C7 /* Foundation.framework in Frameworks */,
+				C96EE81E163833EB00CF35C7 /* CoreGraphics.framework in Frameworks */,
+				C9ECD1A816383ADD00BCAC59 /* DropboxSDK.framework in Frameworks */,
+				C9AF4E1A1644B3460045F370 /* libSTLParser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96EE83B163833EB00CF35C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96EE841163833EB00CF35C7 /* SenTestingKit.framework in Frameworks */,
+				C96EE842163833EB00CF35C7 /* UIKit.framework in Frameworks */,
+				C96EE843163833EB00CF35C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C95C3C0D189E8855003F23A1 /* GLSL */ = {
+			isa = PBXGroup;
+			children = (
+				C95C3C0E189E887E003F23A1 /* SimpleFragment.glsl */,
+				C95C3C0F189E887E003F23A1 /* SimpleVertex.glsl */,
+			);
+			name = GLSL;
+			sourceTree = "<group>";
+		};
+		C96EE80A163833EB00CF35C7 = {
+			isa = PBXGroup;
+			children = (
+				C9AF4E6F1648FF330045F370 /* StoreKit.framework */,
+				C9AF4E3B164736DF0045F370 /* Images */,
+				C9AF4E1E1644B6C20045F370 /* OpenGLES.framework */,
+				C9AF4E1C1644B6950045F370 /* GLKit.framework */,
+				C9AF4E1B1644B3510045F370 /* STLParser */,
+				EB971CF6163F19DB000E647B /* Google SDK */,
+				EB971CEB163F14EF000E647B /* SystemConfiguration.framework */,
+				EBDD61FD163ED9DC005D126E /* Localizable.strings */,
+				C9ECD1AC16383B5200BCAC59 /* QuartzCore.framework */,
+				C9ECD1AA16383B4A00BCAC59 /* Security.framework */,
+				C9ECD1A716383ADD00BCAC59 /* DropboxSDK.framework */,
+				C96EE81F163833EB00CF35C7 /* STLCloudBrowser */,
+				C96EE846163833EB00CF35C7 /* STLCloudBrowserTests */,
+				C96EE818163833EB00CF35C7 /* Frameworks */,
+				C96EE816163833EB00CF35C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C96EE816163833EB00CF35C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C96EE815163833EB00CF35C7 /* 3D Cloud.app */,
+				C96EE83F163833EB00CF35C7 /* STLCloudBrowserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C96EE818163833EB00CF35C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C96EE819163833EB00CF35C7 /* UIKit.framework */,
+				C96EE81B163833EB00CF35C7 /* Foundation.framework */,
+				C96EE81D163833EB00CF35C7 /* CoreGraphics.framework */,
+				C96EE840163833EB00CF35C7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C96EE81F163833EB00CF35C7 /* STLCloudBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EB915D7B1743FFEA00D8446D /* Rate */,
+				C9AF4E6B1648988F0045F370 /* InApp Purchase */,
+				C975B6CC164AB7080058EDE9 /* App */,
+				C975B6CA164AB6F60058EDE9 /* Utils */,
+				C9AF4E531647CBF40045F370 /* Local Drive */,
+				EB971CA7163F07CC000E647B /* UI */,
+				EBD5109116398FA300C6D333 /* Google Drive */,
+				EBD5108616396F8D00C6D333 /* Protocols */,
+				EBD5108116396EDA00C6D333 /* Dropbox */,
+				C96EE820163833EB00CF35C7 /* Supporting Files */,
+			);
+			path = STLCloudBrowser;
+			sourceTree = "<group>";
+		};
+		C96EE820163833EB00CF35C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C96EE821163833EB00CF35C7 /* STLCloudBrowser-Info.plist */,
+				C96EE822163833EB00CF35C7 /* InfoPlist.strings */,
+				C96EE825163833EB00CF35C7 /* main.m */,
+				C96EE827163833EB00CF35C7 /* STLCloudBrowser-Prefix.pch */,
+				C96EE82B163833EB00CF35C7 /* Default.png */,
+				C96EE82D163833EB00CF35C7 /* Default@2x.png */,
+				C96EE82F163833EB00CF35C7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C96EE846163833EB00CF35C7 /* STLCloudBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				C96EE84C163833EB00CF35C7 /* STLCloudBrowserTests.h */,
+				C96EE84D163833EB00CF35C7 /* STLCloudBrowserTests.m */,
+				C96EE847163833EB00CF35C7 /* Supporting Files */,
+			);
+			path = STLCloudBrowserTests;
+			sourceTree = "<group>";
+		};
+		C96EE847163833EB00CF35C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C96EE848163833EB00CF35C7 /* STLCloudBrowserTests-Info.plist */,
+				C96EE849163833EB00CF35C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C975B6CA164AB6F60058EDE9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F0BFD16481D8A00482E23 /* STLCloudBrowserUtils.m */,
+				EB3F0BFC16481D8A00482E23 /* STLCloudBrowserUtils.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		C975B6CC164AB7080058EDE9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C96EE828163833EB00CF35C7 /* STLCloudBrowserAppDelegate.h */,
+				C96EE829163833EB00CF35C7 /* STLCloudBrowserAppDelegate.m */,
+				C96EE837163833EB00CF35C7 /* STLCloudBrowserViewController.h */,
+				C96EE838163833EB00CF35C7 /* STLCloudBrowserViewController.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		C9AF4E1B1644B3510045F370 /* STLParser */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF4E191644B3460045F370 /* stl.h */,
+				C9AF4E181644B3460045F370 /* libSTLParser.a */,
+			);
+			name = STLParser;
+			sourceTree = "<group>";
+		};
+		C9AF4E3B164736DF0045F370 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EB7CF20817047C1E00814B6B /* cart.png */,
+				C9907DF5182051FC00F368CB /* 3d_cloud 76x76.png */,
+				C9907DF6182051FC00F368CB /* 3d_cloud 120x120.png */,
+				C9907DF7182051FC00F368CB /* 3d_cloud 152x152.png */,
+				C975B6CF164ABF5C0058EDE9 /* 3d_cloud_144x144.png */,
+				C975B6CD164ABF280058EDE9 /* 3d_cloud_72x72.png */,
+				C9AF4E781649E0F00045F370 /* 3d_cloud_114x114.png */,
+				C987F00916F3C0E4005FB0B7 /* icon_restore.png */,
+				C987F00B16F3C2F8005FB0B7 /* icon_buy_now.png */,
+				C9AF4E751649E0EB0045F370 /* 3d_cloud_57x57.png */,
+				C9AF4E06164485E00045F370 /* google_drive_icon.png */,
+				C9AF4E03164485D30045F370 /* dropbox_icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C9AF4E531647CBF40045F370 /* Local Drive */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF4E511647CBE90045F370 /* STLCloudBrowserLocalDrive.m */,
+				C9AF4E501647CBE90045F370 /* STLCloudBrowserLocalDrive.h */,
+			);
+			name = "Local Drive";
+			sourceTree = "<group>";
+		};
+		C9AF4E6B1648988F0045F370 /* InApp Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF4E68164898810045F370 /* IAPHelper.m */,
+				C9AF4E67164898810045F370 /* IAPHelper.h */,
+				C9AF4E6C1648FDA60045F370 /* STLCloudBrowserIAPHelper.h */,
+				C9AF4E6D1648FDA60045F370 /* STLCloudBrowserIAPHelper.m */,
+			);
+			name = "InApp Purchase";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EB915D7B1743FFEA00D8446D /* Rate */ = {
+			isa = PBXGroup;
+			children = (
+				EB915D7C1744003300D8446D /* iRate.m */,
+				EB915D7D1744003300D8446D /* iRate.h */,
+			);
+			name = Rate;
+			sourceTree = "<group>";
+		};
+		EB971CA7163F07CC000E647B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C95C3C0D189E8855003F23A1 /* GLSL */,
+				C96EE834163833EB00CF35C7 /* MainStoryboard_iPad.storyboard */,
+				EB971CA9163F08AE000E647B /* STLCloudBrowserDirCell.h */,
+				EB971CAA163F08AE000E647B /* STLCloudBrowserDirCell.m */,
+				C96EE831163833EB00CF35C7 /* MainStoryboard_iPhone.storyboard */,
+				EBDD6200163EDE90005D126E /* STLCloudBrowserDirectoryViewController.h */,
+				EBDD6201163EDE90005D126E /* STLCloudBrowserDirectoryViewController.m */,
+				C9AF4E131644B0F20045F370 /* STLCloudBrowserSTLViewController.h */,
+				C9AF4E141644B0F20045F370 /* STLCloudBrowserSTLViewController.m */,
+				C9AF4E151644B0F20045F370 /* STLViewiPhone.xib */,
+				C9AF4E3D16473A640045F370 /* STLViewiPad.xib */,
+				EB0B45521641A64800068F10 /* DirectoryViewiPhone.xib */,
+				EB971CAC163F08C8000E647B /* STLCloudBrowserFileCell.h */,
+				EB971CAD163F08C9000E647B /* STLCloudBrowserFileCell.m */,
+				EB5E462A17DE5E9F0001CA35 /* STLCloudBrowserDriveViewController.h */,
+				EB5E462B17DE5E9F0001CA35 /* STLCloudBrowserDriveViewController.m */,
+				EB5E462D17DE6A650001CA35 /* STLCloudBrowserDriveCell.xib */,
+				EB5E462F17DE6AC30001CA35 /* STLCloudBrowserDriveCell.h */,
+				EB5E463017DE6AC30001CA35 /* STLCloudBrowserDriveCell.m */,
+			);
+			name = UI;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EB971CF6163F19DB000E647B /* Google SDK */ = {
+			isa = PBXGroup;
+			children = (
+				EB971CF8163F1A2B000E647B /* API */,
+				EB971CF7163F1A12000E647B /* Drive */,
+			);
+			name = "Google SDK";
+			sourceTree = "<group>";
+		};
+		EB971CF7163F1A12000E647B /* Drive */ = {
+			isa = PBXGroup;
+			children = (
+				EB971D55163F1A85000E647B /* GTLDrive.h */,
+				EB971D56163F1A85000E647B /* GTLDriveAbout.h */,
+				EB971D57163F1A85000E647B /* GTLDriveAbout.m */,
+				EB971D58163F1A85000E647B /* GTLDriveApp.h */,
+				EB971D59163F1A85000E647B /* GTLDriveApp.m */,
+				EB971D5A163F1A85000E647B /* GTLDriveAppList.h */,
+				EB971D5B163F1A85000E647B /* GTLDriveAppList.m */,
+				EB971D5C163F1A85000E647B /* GTLDriveChange.h */,
+				EB971D5D163F1A85000E647B /* GTLDriveChange.m */,
+				EB971D5E163F1A85000E647B /* GTLDriveChangeList.h */,
+				EB971D5F163F1A85000E647B /* GTLDriveChangeList.m */,
+				EB971D60163F1A85000E647B /* GTLDriveChildList.h */,
+				EB971D61163F1A85000E647B /* GTLDriveChildList.m */,
+				EB971D62163F1A85000E647B /* GTLDriveChildReference.h */,
+				EB971D63163F1A85000E647B /* GTLDriveChildReference.m */,
+				EB971D64163F1A85000E647B /* GTLDriveConstants.h */,
+				EB971D65163F1A85000E647B /* GTLDriveConstants.m */,
+				EB971D66163F1A85000E647B /* GTLDriveFile.h */,
+				EB971D67163F1A85000E647B /* GTLDriveFile.m */,
+				EB971D68163F1A85000E647B /* GTLDriveFileList.h */,
+				EB971D69163F1A85000E647B /* GTLDriveFileList.m */,
+				EB971D6A163F1A85000E647B /* GTLDriveParentList.h */,
+				EB971D6B163F1A85000E647B /* GTLDriveParentList.m */,
+				EB971D6C163F1A85000E647B /* GTLDriveParentReference.h */,
+				EB971D6D163F1A85000E647B /* GTLDriveParentReference.m */,
+				EB971D6E163F1A85000E647B /* GTLDrivePermission.h */,
+				EB971D6F163F1A85000E647B /* GTLDrivePermission.m */,
+				EB971D70163F1A85000E647B /* GTLDrivePermissionList.h */,
+				EB971D71163F1A85000E647B /* GTLDrivePermissionList.m */,
+				EB971D72163F1A85000E647B /* GTLDriveRevision.h */,
+				EB971D73163F1A85000E647B /* GTLDriveRevision.m */,
+				EB971D74163F1A85000E647B /* GTLDriveRevisionList.h */,
+				EB971D75163F1A85000E647B /* GTLDriveRevisionList.m */,
+				EB971D76163F1A85000E647B /* GTLQueryDrive.h */,
+				EB971D77163F1A85000E647B /* GTLQueryDrive.m */,
+				EB971D78163F1A85000E647B /* GTLServiceDrive.h */,
+				EB971D79163F1A85000E647B /* GTLServiceDrive.m */,
+			);
+			name = Drive;
+			sourceTree = "<group>";
+		};
+		EB971CF8163F1A2B000E647B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EB971CF9163F1A56000E647B /* GTLDefines.h */,
+				EB971CFA163F1A56000E647B /* GTLObject.h */,
+				EB971CFB163F1A56000E647B /* GTLObject.m */,
+				EB971CFC163F1A56000E647B /* GTLQuery.h */,
+				EB971CFD163F1A56000E647B /* GTLQuery.m */,
+				EB971CFE163F1A56000E647B /* GTLBatchQuery.h */,
+				EB971CFF163F1A56000E647B /* GTLBatchQuery.m */,
+				EB971D00163F1A56000E647B /* GTLService.h */,
+				EB971D01163F1A56000E647B /* GTLService.m */,
+				EB971D02163F1A56000E647B /* GTLBatchResult.h */,
+				EB971D03163F1A56000E647B /* GTLBatchResult.m */,
+				EB971D04163F1A56000E647B /* GTLUploadParameters.h */,
+				EB971D05163F1A56000E647B /* GTLUploadParameters.m */,
+				EB971D06163F1A56000E647B /* GTLDateTime.h */,
+				EB971D07163F1A56000E647B /* GTLDateTime.m */,
+				EB971D08163F1A56000E647B /* GTLErrorObject.h */,
+				EB971D09163F1A56000E647B /* GTLErrorObject.m */,
+				EB971D0A163F1A56000E647B /* GTLRuntimeCommon.h */,
+				EB971D0B163F1A56000E647B /* GTLRuntimeCommon.m */,
+				EB971D0C163F1A56000E647B /* GTLFramework.h */,
+				EB971D0D163F1A56000E647B /* GTLFramework.m */,
+				EB971D0E163F1A56000E647B /* GTLJSONParser.h */,
+				EB971D0F163F1A56000E647B /* GTLJSONParser.m */,
+				EB971D10163F1A56000E647B /* GTLTargetNamespace.h */,
+				EB971D11163F1A56000E647B /* GTLUtilities.h */,
+				EB971D12163F1A56000E647B /* GTLUtilities.m */,
+				EB971D13163F1A56000E647B /* GTLBase64.h */,
+				EB971D14163F1A56000E647B /* GTLBase64.m */,
+				EB971D15163F1A56000E647B /* GTMHTTPFetcherService.h */,
+				EB971D16163F1A56000E647B /* GTMHTTPFetcherService.m */,
+				EB971D17163F1A56000E647B /* GTMHTTPFetcher.h */,
+				EB971D18163F1A56000E647B /* GTMHTTPFetcher.m */,
+				EB971D19163F1A56000E647B /* GTMHTTPFetcherLogging.h */,
+				EB971D1A163F1A56000E647B /* GTMHTTPFetcherLogging.m */,
+				EB971D1B163F1A56000E647B /* GTMHTTPFetchHistory.h */,
+				EB971D1C163F1A56000E647B /* GTMHTTPFetchHistory.m */,
+				EB971D1D163F1A56000E647B /* GTMHTTPUploadFetcher.h */,
+				EB971D1E163F1A56000E647B /* GTMHTTPUploadFetcher.m */,
+				EB971D1F163F1A56000E647B /* GTMGatherInputStream.h */,
+				EB971D20163F1A56000E647B /* GTMGatherInputStream.m */,
+				EB971D21163F1A56000E647B /* GTMMIMEDocument.h */,
+				EB971D22163F1A56000E647B /* GTMMIMEDocument.m */,
+				EB971D23163F1A56000E647B /* GTMReadMonitorInputStream.h */,
+				EB971D24163F1A56000E647B /* GTMReadMonitorInputStream.m */,
+				EB971D25163F1A56000E647B /* JSON.h */,
+				EB971D26163F1A56000E647B /* JSON.h */,
+				EB971D27163F1A56000E647B /* SBJsonBase.h */,
+				EB971D28163F1A56000E647B /* SBJsonBase.m */,
+				EB971D29163F1A56000E647B /* SBJsonParser.h */,
+				EB971D2A163F1A56000E647B /* SBJsonParser.m */,
+				EB971D2B163F1A56000E647B /* SBJsonWriter.h */,
+				EB971D2C163F1A56000E647B /* SBJsonWriter.m */,
+				EB971D2D163F1A56000E647B /* GTMOAuth2Authentication.h */,
+				EB971D2E163F1A56000E647B /* GTMOAuth2Authentication.m */,
+				EB971D2F163F1A56000E647B /* GTMOAuth2SignIn.h */,
+				EB971D30163F1A56000E647B /* GTMOAuth2SignIn.m */,
+				EB971D31163F1A56000E647B /* GTMOAuth2Window.xib */,
+				EB971D32163F1A56000E647B /* GTMOAuth2WindowController.h */,
+				EB971D33163F1A56000E647B /* GTMOAuth2WindowController.m */,
+				EB971D34163F1A56000E647B /* GTMOAuth2ViewControllerTouch.h */,
+				EB971D35163F1A56000E647B /* GTMOAuth2ViewControllerTouch.m */,
+				EB971D36163F1A56000E647B /* GTMOAuth2ViewTouch.xib */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		EBD5108116396EDA00C6D333 /* Dropbox */ = {
+			isa = PBXGroup;
+			children = (
+				C9ECD1B016385A5000BCAC59 /* STLCloudBrowserDropBoxDrive.h */,
+				C9ECD1B116385A5000BCAC59 /* STLCloudBrowserDropBoxDrive.m */,
+			);
+			name = Dropbox;
+			sourceTree = "<group>";
+		};
+		EBD5108616396F8D00C6D333 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EBD510871639777900C6D333 /* STLCloudBrowserDirectory.h */,
+				EBD510881639777900C6D333 /* STLCloudBrowserDirectory.m */,
+				EBD5108A1639779B00C6D333 /* STLCloudBrowserFile.h */,
+				EBD5108B1639779B00C6D333 /* STLCloudBrowserFile.m */,
+				C9762AA916420D5500E46DF2 /* STLCloudBrowserDrive.h */,
+				C9762AAA16420D5500E46DF2 /* STLCloudBrowserDrive.m */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		EBD5109116398FA300C6D333 /* Google Drive */ = {
+			isa = PBXGroup;
+			children = (
+				EBD5109316398FD600C6D333 /* STLCloudBrowserGoogleDrive.h */,
+				EBD5109416398FD600C6D333 /* STLCloudBrowserGoogleDrive.m */,
+			);
+			name = "Google Drive";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C96EE814163833EB00CF35C7 /* 3D Cloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96EE851163833EB00CF35C7 /* Build configuration list for PBXNativeTarget "3D Cloud" */;
+			buildPhases = (
+				C96EE811163833EB00CF35C7 /* Sources */,
+				C96EE812163833EB00CF35C7 /* Frameworks */,
+				C96EE813163833EB00CF35C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3D Cloud";
+			productName = STLCloudBrowser;
+			productReference = C96EE815163833EB00CF35C7 /* 3D Cloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C96EE83E163833EB00CF35C7 /* STLCloudBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96EE854163833EB00CF35C7 /* Build configuration list for PBXNativeTarget "STLCloudBrowserTests" */;
+			buildPhases = (
+				C96EE83A163833EB00CF35C7 /* Sources */,
+				C96EE83B163833EB00CF35C7 /* Frameworks */,
+				C96EE83C163833EB00CF35C7 /* Resources */,
+				C96EE83D163833EB00CF35C7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C96EE845163833EB00CF35C7 /* PBXTargetDependency */,
+			);
+			name = STLCloudBrowserTests;
+			productName = STLCloudBrowserTests;
+			productReference = C96EE83F163833EB00CF35C7 /* STLCloudBrowserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C96EE80C163833EB00CF35C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = STLCloudBrowser;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Akruty;
+			};
+			buildConfigurationList = C96EE80F163833EB00CF35C7 /* Build configuration list for PBXProject "STLCloudBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C96EE80A163833EB00CF35C7;
+			productRefGroup = C96EE816163833EB00CF35C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C96EE814163833EB00CF35C7 /* 3D Cloud */,
+				C96EE83E163833EB00CF35C7 /* STLCloudBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C96EE813163833EB00CF35C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96EE824163833EB00CF35C7 /* InfoPlist.strings in Resources */,
+				C96EE82C163833EB00CF35C7 /* Default.png in Resources */,
+				C95C3C11189E887E003F23A1 /* SimpleVertex.glsl in Resources */,
+				C96EE82E163833EB00CF35C7 /* Default@2x.png in Resources */,
+				C96EE830163833EB00CF35C7 /* Default-568h@2x.png in Resources */,
+				C96EE833163833EB00CF35C7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C96EE836163833EB00CF35C7 /* MainStoryboard_iPad.storyboard in Resources */,
+				EBDD61FE163ED9DC005D126E /* Localizable.strings in Resources */,
+				EB0B45531641A64800068F10 /* DirectoryViewiPhone.xib in Resources */,
+				C9AF4E04164485D30045F370 /* dropbox_icon.png in Resources */,
+				C9AF4E07164485E00045F370 /* google_drive_icon.png in Resources */,
+				C9907DF8182051FC00F368CB /* 3d_cloud 76x76.png in Resources */,
+				C9AF4E171644B0F30045F370 /* STLViewiPhone.xib in Resources */,
+				C9AF4E3E16473A650045F370 /* STLViewiPad.xib in Resources */,
+				C9AF4E761649E0EB0045F370 /* 3d_cloud_57x57.png in Resources */,
+				C9907DF9182051FC00F368CB /* 3d_cloud 120x120.png in Resources */,
+				C9AF4E791649E0F00045F370 /* 3d_cloud_114x114.png in Resources */,
+				C975B6CE164ABF280058EDE9 /* 3d_cloud_72x72.png in Resources */,
+				C95C3C10189E887E003F23A1 /* SimpleFragment.glsl in Resources */,
+				C975B6D0164ABF5C0058EDE9 /* 3d_cloud_144x144.png in Resources */,
+				C987F00A16F3C0E4005FB0B7 /* icon_restore.png in Resources */,
+				C9907DFA182051FC00F368CB /* 3d_cloud 152x152.png in Resources */,
+				C987F00C16F3C2F8005FB0B7 /* icon_buy_now.png in Resources */,
+				EB7CF20917047C1E00814B6B /* cart.png in Resources */,
+				EB5E462E17DE6A650001CA35 /* STLCloudBrowserDriveCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96EE83C163833EB00CF35C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96EE84B163833EB00CF35C7 /* InfoPlist.strings in Resources */,
+				EB971D51163F1A56000E647B /* GTMOAuth2Window.xib in Resources */,
+				EB971D54163F1A56000E647B /* GTMOAuth2ViewTouch.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C96EE83D163833EB00CF35C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C96EE811163833EB00CF35C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0B45681642A78E00068F10 /* GTMOAuth2ViewTouch.xib in Sources */,
+				EB022642163F1C7100472D00 /* GTLDriveAbout.m in Sources */,
+				EB022644163F1C7100472D00 /* GTLDriveApp.m in Sources */,
+				EB022646163F1C7100472D00 /* GTLDriveAppList.m in Sources */,
+				EB022648163F1C7100472D00 /* GTLDriveChange.m in Sources */,
+				EB02264A163F1C7100472D00 /* GTLDriveChangeList.m in Sources */,
+				EB02264C163F1C7100472D00 /* GTLDriveChildList.m in Sources */,
+				EB02264E163F1C7100472D00 /* GTLDriveChildReference.m in Sources */,
+				EB022650163F1C7100472D00 /* GTLDriveConstants.m in Sources */,
+				EB022652163F1C7100472D00 /* GTLDriveFile.m in Sources */,
+				EB022654163F1C7100472D00 /* GTLDriveFileList.m in Sources */,
+				EB022656163F1C7100472D00 /* GTLDriveParentList.m in Sources */,
+				EB022658163F1C7100472D00 /* GTLDriveParentReference.m in Sources */,
+				EB02265A163F1C7100472D00 /* GTLDrivePermission.m in Sources */,
+				EB02265C163F1C7100472D00 /* GTLDrivePermissionList.m in Sources */,
+				EB02265E163F1C7100472D00 /* GTLDriveRevision.m in Sources */,
+				EB022660163F1C7100472D00 /* GTLDriveRevisionList.m in Sources */,
+				EB022662163F1C7100472D00 /* GTLQueryDrive.m in Sources */,
+				EB022664163F1C7100472D00 /* GTLServiceDrive.m in Sources */,
+				EB971D8E163F1ABC000E647B /* GTLObject.m in Sources */,
+				EB971D90163F1ABC000E647B /* GTLQuery.m in Sources */,
+				EB971D92163F1ABC000E647B /* GTLBatchQuery.m in Sources */,
+				EB971D94163F1ABC000E647B /* GTLService.m in Sources */,
+				EB971D96163F1ABC000E647B /* GTLBatchResult.m in Sources */,
+				EB971D98163F1ABC000E647B /* GTLUploadParameters.m in Sources */,
+				EB971D9A163F1ABC000E647B /* GTLDateTime.m in Sources */,
+				EB971D9C163F1ABC000E647B /* GTLErrorObject.m in Sources */,
+				EB971D9E163F1ABC000E647B /* GTLRuntimeCommon.m in Sources */,
+				EB971DA0163F1ABC000E647B /* GTLFramework.m in Sources */,
+				EB971DA2163F1ABC000E647B /* GTLJSONParser.m in Sources */,
+				EB971DA5163F1ABC000E647B /* GTLUtilities.m in Sources */,
+				EB971DA7163F1ABC000E647B /* GTLBase64.m in Sources */,
+				EB971DA9163F1ABC000E647B /* GTMHTTPFetcherService.m in Sources */,
+				EB971DAB163F1ABC000E647B /* GTMHTTPFetcher.m in Sources */,
+				EB971DAD163F1ABC000E647B /* GTMHTTPFetcherLogging.m in Sources */,
+				EB971DAF163F1ABC000E647B /* GTMHTTPFetchHistory.m in Sources */,
+				EB971DB1163F1ABC000E647B /* GTMHTTPUploadFetcher.m in Sources */,
+				EB971DB3163F1ABC000E647B /* GTMGatherInputStream.m in Sources */,
+				EB971DB5163F1ABC000E647B /* GTMMIMEDocument.m in Sources */,
+				EB971DB7163F1ABC000E647B /* GTMReadMonitorInputStream.m in Sources */,
+				EB971DBB163F1ABC000E647B /* SBJsonBase.m in Sources */,
+				EB971DBD163F1ABC000E647B /* SBJsonParser.m in Sources */,
+				EB971DBF163F1ABC000E647B /* SBJsonWriter.m in Sources */,
+				EB971DC1163F1ABC000E647B /* GTMOAuth2Authentication.m in Sources */,
+				EB971DC3163F1ABC000E647B /* GTMOAuth2SignIn.m in Sources */,
+				EB971DC6163F1ABC000E647B /* GTMOAuth2WindowController.m in Sources */,
+				EB971DC8163F1ABC000E647B /* GTMOAuth2ViewControllerTouch.m in Sources */,
+				C96EE826163833EB00CF35C7 /* main.m in Sources */,
+				C96EE82A163833EB00CF35C7 /* STLCloudBrowserAppDelegate.m in Sources */,
+				C96EE839163833EB00CF35C7 /* STLCloudBrowserViewController.m in Sources */,
+				C9ECD1B216385A5000BCAC59 /* STLCloudBrowserDropBoxDrive.m in Sources */,
+				EBD510891639777900C6D333 /* STLCloudBrowserDirectory.m in Sources */,
+				EBD5108C1639779B00C6D333 /* STLCloudBrowserFile.m in Sources */,
+				EBD5109516398FD600C6D333 /* STLCloudBrowserGoogleDrive.m in Sources */,
+				EBDD6202163EDE90005D126E /* STLCloudBrowserDirectoryViewController.m in Sources */,
+				EB971CAB163F08AF000E647B /* STLCloudBrowserDirCell.m in Sources */,
+				EB971CAE163F08C9000E647B /* STLCloudBrowserFileCell.m in Sources */,
+				C9762AAB16420D5500E46DF2 /* STLCloudBrowserDrive.m in Sources */,
+				C9AF4E161644B0F30045F370 /* STLCloudBrowserSTLViewController.m in Sources */,
+				C9AF4E521647CBEA0045F370 /* STLCloudBrowserLocalDrive.m in Sources */,
+				EB3F0BFE16481D8A00482E23 /* STLCloudBrowserUtils.m in Sources */,
+				C9AF4E69164898810045F370 /* IAPHelper.m in Sources */,
+				C9AF4E6E1648FDA60045F370 /* STLCloudBrowserIAPHelper.m in Sources */,
+				EB915D7E1744003300D8446D /* iRate.m in Sources */,
+				EB5E462C17DE5E9F0001CA35 /* STLCloudBrowserDriveViewController.m in Sources */,
+				EB5E463117DE6AC40001CA35 /* STLCloudBrowserDriveCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96EE83A163833EB00CF35C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96EE84E163833EB00CF35C7 /* STLCloudBrowserTests.m in Sources */,
+				EB971D37163F1A56000E647B /* GTLObject.m in Sources */,
+				EB971D38163F1A56000E647B /* GTLQuery.m in Sources */,
+				EB971D39163F1A56000E647B /* GTLBatchQuery.m in Sources */,
+				EB971D3A163F1A56000E647B /* GTLService.m in Sources */,
+				EB971D3B163F1A56000E647B /* GTLBatchResult.m in Sources */,
+				EB971D3C163F1A56000E647B /* GTLUploadParameters.m in Sources */,
+				EB971D3D163F1A56000E647B /* GTLDateTime.m in Sources */,
+				EB971D3E163F1A56000E647B /* GTLErrorObject.m in Sources */,
+				EB971D3F163F1A56000E647B /* GTLRuntimeCommon.m in Sources */,
+				EB971D40163F1A56000E647B /* GTLFramework.m in Sources */,
+				EB971D41163F1A56000E647B /* GTLJSONParser.m in Sources */,
+				EB971D42163F1A56000E647B /* GTLUtilities.m in Sources */,
+				EB971D43163F1A56000E647B /* GTLBase64.m in Sources */,
+				EB971D44163F1A56000E647B /* GTMHTTPFetcherService.m in Sources */,
+				EB971D45163F1A56000E647B /* GTMHTTPFetcher.m in Sources */,
+				EB971D46163F1A56000E647B /* GTMHTTPFetcherLogging.m in Sources */,
+				EB971D47163F1A56000E647B /* GTMHTTPFetchHistory.m in Sources */,
+				EB971D48163F1A56000E647B /* GTMHTTPUploadFetcher.m in Sources */,
+				EB971D49163F1A56000E647B /* GTMGatherInputStream.m in Sources */,
+				EB971D4A163F1A56000E647B /* GTMMIMEDocument.m in Sources */,
+				EB971D4B163F1A56000E647B /* GTMReadMonitorInputStream.m in Sources */,
+				EB971D4C163F1A56000E647B /* SBJsonBase.m in Sources */,
+				EB971D4D163F1A56000E647B /* SBJsonParser.m in Sources */,
+				EB971D4E163F1A56000E647B /* SBJsonWriter.m in Sources */,
+				EB971D4F163F1A56000E647B /* GTMOAuth2Authentication.m in Sources */,
+				EB971D50163F1A56000E647B /* GTMOAuth2SignIn.m in Sources */,
+				EB971D52163F1A56000E647B /* GTMOAuth2WindowController.m in Sources */,
+				EB971D53163F1A56000E647B /* GTMOAuth2ViewControllerTouch.m in Sources */,
+				EB971D7A163F1A85000E647B /* GTLDriveAbout.m in Sources */,
+				EB971D7B163F1A85000E647B /* GTLDriveApp.m in Sources */,
+				EB971D7C163F1A85000E647B /* GTLDriveAppList.m in Sources */,
+				EB971D7D163F1A85000E647B /* GTLDriveChange.m in Sources */,
+				EB971D7E163F1A85000E647B /* GTLDriveChangeList.m in Sources */,
+				EB971D7F163F1A85000E647B /* GTLDriveChildList.m in Sources */,
+				EB971D80163F1A85000E647B /* GTLDriveChildReference.m in Sources */,
+				EB971D81163F1A85000E647B /* GTLDriveConstants.m in Sources */,
+				EB971D82163F1A85000E647B /* GTLDriveFile.m in Sources */,
+				EB971D83163F1A85000E647B /* GTLDriveFileList.m in Sources */,
+				EB971D84163F1A85000E647B /* GTLDriveParentList.m in Sources */,
+				EB971D85163F1A85000E647B /* GTLDriveParentReference.m in Sources */,
+				EB971D86163F1A85000E647B /* GTLDrivePermission.m in Sources */,
+				EB971D87163F1A85000E647B /* GTLDrivePermissionList.m in Sources */,
+				EB971D88163F1A85000E647B /* GTLDriveRevision.m in Sources */,
+				EB971D89163F1A85000E647B /* GTLDriveRevisionList.m in Sources */,
+				EB971D8A163F1A85000E647B /* GTLQueryDrive.m in Sources */,
+				EB971D8B163F1A85000E647B /* GTLServiceDrive.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C96EE845163833EB00CF35C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C96EE814163833EB00CF35C7 /* 3D Cloud */;
+			targetProxy = C96EE844163833EB00CF35C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C96EE822163833EB00CF35C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96EE823163833EB00CF35C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C96EE831163833EB00CF35C7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96EE832163833EB00CF35C7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			path = STLCloudBrowser;
+			sourceTree = "<group>";
+		};
+		C96EE834163833EB00CF35C7 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96EE835163833EB00CF35C7 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			path = STLCloudBrowser;
+			sourceTree = "<group>";
+		};
+		C96EE849163833EB00CF35C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96EE84A163833EB00CF35C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C96EE84F163833EB00CF35C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Vishal Patil (9873K25YRW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "3CFB0878-865F-4B2F-9067-01B5F6F63164";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C96EE850163833EB00CF35C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Vishal Patil (9873K25YRW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "3CFB0878-865F-4B2F-9067-01B5F6F63164";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C96EE852163833EB00CF35C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STLCloudBrowser/STLCloudBrowser-Prefix.pch";
+				INFOPLIST_FILE = "STLCloudBrowser/STLCloudBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C96EE853163833EB00CF35C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STLCloudBrowser/STLCloudBrowser-Prefix.pch";
+				INFOPLIST_FILE = "STLCloudBrowser/STLCloudBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C96EE855163833EB00CF35C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/STLCloudBrowser.app/STLCloudBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STLCloudBrowser/STLCloudBrowser-Prefix.pch";
+				INFOPLIST_FILE = "STLCloudBrowserTests/STLCloudBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C96EE856163833EB00CF35C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/STLCloudBrowser.app/STLCloudBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STLCloudBrowser/STLCloudBrowser-Prefix.pch";
+				INFOPLIST_FILE = "STLCloudBrowserTests/STLCloudBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C96EE80F163833EB00CF35C7 /* Build configuration list for PBXProject "STLCloudBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96EE84F163833EB00CF35C7 /* Debug */,
+				C96EE850163833EB00CF35C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96EE851163833EB00CF35C7 /* Build configuration list for PBXNativeTarget "3D Cloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96EE852163833EB00CF35C7 /* Debug */,
+				C96EE853163833EB00CF35C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96EE854163833EB00CF35C7 /* Build configuration list for PBXNativeTarget "STLCloudBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96EE855163833EB00CF35C7 /* Debug */,
+				C96EE856163833EB00CF35C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C96EE80C163833EB00CF35C7 /* Project object */;
+}

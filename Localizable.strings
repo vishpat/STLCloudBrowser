@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  STLCloudBrowser
+
+  Created by Vishal Patil on 10/29/12.
+  Copyright (c) 2012 Akruty. All rights reserved.
+*/
+
+APP_NAME = "3D Cloud";
+DROPBOX = "Dropbox";
+GOOGLE_DRIVE = "Google Drive";
+DRIVE_CONNECTION_PROBLEM = "Problem connecting to the server";
+STL_INVALID_FILE_MESSAGE = "Invalid STL file format";
+STL_DOWNLOAD_PROBLEM = "Unable to access the STL file";
+LOW_MEMORY = "Low App Memory";
+EVALUATION_COPY = "Evaluation Copy";
+EVALUATION_EXPIRED = "Evaluation Expired";
+BUY = "Buy";
+RESTORE = "Restore";
+CANCEL = "Cancel";
+RESTORATION_COMPLETE = "Bought features have been restored";
+RESTORATION_FAILED = "Failed to restore features";
+DISMISS = "Dismiss";
+ERROR = "Error";
+BUY_PROBLEM = "Problem buying the app, please retry";
+BACK = "BACK";
+SIGN_OUT = "Sign Out";
